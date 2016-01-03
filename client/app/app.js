@@ -5,8 +5,7 @@ angular.module('kinleyParserApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute'
-])
-  .config(function ($routeProvider, $locationProvider) {
+])  .config(function ($routeProvider, $locationProvider) {
     $routeProvider
       .otherwise({
         redirectTo: '/'
@@ -14,3 +13,4 @@ angular.module('kinleyParserApp', [
 
     $locationProvider.html5Mode(true);
   });
+ ;
